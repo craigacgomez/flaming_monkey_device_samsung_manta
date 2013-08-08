@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     device/samsung/manta/manta-keypad.kl:system/usr/keylayout/manta-keypad.kl \
     device/samsung/manta/manta-keypad.kcm:system/usr/keychars/manta-keypad.kcm
 
-
 # Init files for booting smdk5250 with a manta image
 PRODUCT_COPY_FILES += \
     device/samsung/manta/init.smdk5250.rc:root/init.smdk5250.rc \
@@ -113,6 +112,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
     device/samsung/manta/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
+
+# Bootanimation
+PRODUCT_COPY_FILES += \
+    device/samsung/manta/bootanimation.zip:system/media/bootanimation.zip
 
 PRODUCT_PACKAGES += \
     lights.manta \
