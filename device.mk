@@ -117,6 +117,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/samsung/manta/bootanimation.zip:system/media/bootanimation.zip
 
+# Changelog
+PRODUCT_COPY_FILES += \
+    device/samsung/manta/CHANGELOG-FLAMING_MONKEY.txt:system/etc/CHANGELOG-FLAMING_MONKEY.txt
+
 PRODUCT_PACKAGES += \
     lights.manta \
     sensors.manta

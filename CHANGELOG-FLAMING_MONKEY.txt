@@ -1,0 +1,49 @@
+Project Flaming Monkey - Google Nexus 10 / manta - craigacgomez
+==========
+
+Visit http://github.com/craigacgomez for full changelogs and git access.
+
+Visit http://forum.xda-developers.com/showthread.php?t=2318891 for kernel changelog
+
+CHANGELOG (notable new features)
+----------
+2013/08/08:
+1. Added Quite Hours
+2. Added Changelog under Setting -> About
+3. Added CPU Info & Memory (RAM) Info under Setting -> About
+4. Removed Android System Update
+5. Added ability to change device hostname via Developer Options
+
+2013/08/07:
+1. Added Recent Apps clear all functionality
+2. Added CyanogenMod cLock (LockClock) widget. Configure through Settings -> Display
+3. Added "Google Play Edition" boot-animation
+4. Updated Superuser to version 1.0.2.0
+
+2013/08/06:
+1. Enabled Android 4.3 AppOps (permission management) via Settings -> Security
+2. Added Navigation bar positioning (default/centre, left or right) via Settings -> Display
+
+2013/08/01:
+1. Based on AOSP Android 4.3_r2.1 (JSS15J) source
+2. Added Project Flaming Monkey Kernel (2013/07/26)
+3. Rooted with Koush's daemon-based Superuser (integrated in Settings menu)
+4. Added Bionic busybox 1.21
+5. Added USB OTG read/write support (FAT32/NTFS/ExFAT)
+6. Added Advanced reboot menu (only when screen is unlocked)
+7. Enabled Bluetooth LE (Low Energy), GATT (Generic Attribute Profile) & SMP (Low Energy Security Manager Protocol) support
+8. Added CM File Manager
+9. Added Email/Exchange updates from CyanogenMod
+10. Added Exchange security bypass hook (see instructions below)
+11. Enabled secure boot and secure adb
+12. Enabled Google Location Services
+13. Added miscellaneous build tweaks, additions & removals
+
+CREDITS
+----------
+Google
+Samsung
+CyanogenMod
+Koush
+TeamWin
+Goo.Im
