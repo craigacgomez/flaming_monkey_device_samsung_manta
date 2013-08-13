@@ -219,6 +219,9 @@
      <!-- Enable lockscreen rotation by default -->
     <bool name="config_enableLockScreenRotation">true</bool>
 
+    <!-- Whether safe headphone volume is enabled or not (country specific). -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
+
     <!-- ComponentName of the default dream (Settings.Secure.SCREENSAVER_COMPONENT) -->
     <string name="config_dreamsDefaultComponent">com.android.deskclock/com.android.deskclock.Screensaver</string>
 
