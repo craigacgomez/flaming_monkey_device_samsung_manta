@@ -7,6 +7,19 @@ Visit http://forum.xda-developers.com/showthread.php?t=2318891 for kernel change
 
 CHANGELOG (notable new features)
 ----------
+2013/08/14:
+1. Added Volume button wake under Settings -> Display
+2. Added Volume button long-press music controls under Settings -> Sound
+3. Added Back button long-press application kill under Settings -> Developer Options
+4. Added status bar clock & date click action when expanded
+5. Added awesome wallpaper by jester2508 (fatal exception) - http://jester2508.deviantart.com/art/Nexus-10-northen-lights-352901869
+6. Updated Superuser to version 1.0.2.1
+7. Added warning message for AppOps (permission management)
+8. Reorganised the device info (Settings -> About) screen
+9. Updated device overlays
+10. Disabled headset safe volume restriction
+11. Added init.d support
+
 2013/08/08:
 1. Added Quite Hours
 2. Added Changelog under Setting -> About
