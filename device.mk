@@ -192,8 +192,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mantaray \
     BUILD_DISPLAY_ID="Flaming Monkey $(shell date +%Y%m%d)" \
-    BUILD_FINGERPRINT="google/mantaray/manta:4.3/JWR66V/737497:user/release-keys" \
-    PRIVATE_BUILD_DESC="mantaray-user 4.3 JWR66V 737497 release-keys"
+    BUILD_FINGERPRINT="google/mantaray/manta:4.3/JWR66Y/776638:user/release-keys" \
+    PRIVATE_BUILD_DESC="mantaray-user 4.3 JWR66Y 776638 release-keys"
 
 # media properties
 PRODUCT_PROPERTY_OVERRIDES += \
