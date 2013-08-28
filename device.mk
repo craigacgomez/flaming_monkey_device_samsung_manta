@@ -113,14 +113,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
     device/samsung/manta/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
 
-# Bootanimation
-PRODUCT_COPY_FILES += \
-    device/samsung/manta/bootanimation.zip:system/media/bootanimation.zip
-
-# Changelog
-PRODUCT_COPY_FILES += \
-    device/samsung/manta/CHANGELOG-FLAMING_MONKEY.txt:system/etc/CHANGELOG-FLAMING_MONKEY.txt
-
 PRODUCT_PACKAGES += \
     lights.manta \
     sensors.manta
@@ -203,19 +195,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="google/mantaray/manta:4.3/JWR66V/737497:user/release-keys" \
     PRIVATE_BUILD_DESC="mantaray-user 4.3 JWR66V 737497 release-keys"
 
-# setup properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.android.dataroaming=false \
-    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
-    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
-    ro.com.google.clientidbase=android-google \
-    ro.com.android.wifi-watchlist=GoogleGuest \
-    ro.error.receiver.system.apps=com.google.android.feedback \
-    ro.setupwizard.enterprise_mode=1 \
-    ro.setupwizard.wifi_required=true \
-    keyguard.no_require_sim=true \
-    exchange.security.disabled=0
-
 # media properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.black_timeout=700 \
@@ -227,28 +206,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     camera.flash_off=0 \
     drm.service.enabled=true \
     ro.com.widevine.cachesize=16777216
-
-# performance properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.use_dithering=1 \
-    persist.sys.purgeable_assets=1 \
-    dalvik.vm.verify-bytecode=false \
-    ro.kernel.android.checkjni=0 \
-    ro.kernel.checkjni=0 \
-    debug.sf.hw=1 \
-    persist.sys.ui.hw=1 \
-    debug.performance.tuning=1 \
-    video.accelerate.hw=1 \
-    debug.egl.profiler=1 \
-    debug.egl.hw=1 \
-    debug.composition.type=gpu \
-    windowsmgr.max_events_per_sec=240
-
-# goo.im properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.goo.developerid=craigacgomez \
-    ro.goo.rom=FlamingMonkey \
-    ro.goo.version=$(shell date +%Y%m%d)
 
 $(call inherit-product-if-exists, hardware/samsung_slsi/exynos5/exynos5.mk)
 $(call inherit-product-if-exists, vendor/samsung_slsi/exynos5/exynos5-vendor.mk)
